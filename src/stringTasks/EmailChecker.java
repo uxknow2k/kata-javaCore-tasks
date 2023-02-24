@@ -41,9 +41,9 @@ public class EmailChecker {
         System.out.println("---------");
         System.out.println(isGmailOrOutlook(email2));
     }
-    public static boolean isGmailOrOutlook(String email) {
-        Pattern pattern = Pattern.compile("^[A-Za-z0-9+_.-]+@(.+)$");
-        Matcher matcher = pattern.matcher(email);
-        return matcher.matches();
-    }
+public static boolean isGmailOrOutlook(String email) {
+    Pattern pattern = Pattern.compile("^[A-Za-z0-9+_.-]+@(.+)$");
+    Matcher matcher = pattern.matcher(email);
+    return matcher.matches();
+}
 }
