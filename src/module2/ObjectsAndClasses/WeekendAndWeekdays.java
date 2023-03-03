@@ -1,5 +1,4 @@
 package module2.ObjectsAndClasses;
-
 /**
  * @author Byzov A.A.
  */
